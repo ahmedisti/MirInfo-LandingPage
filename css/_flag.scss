@@ -1,0 +1,43 @@
+.mir-info {
+  &__global {
+    background: $light;
+    min-height: 500px;
+    padding-top: 70px;
+
+    &__title {
+      font-size: 50px;
+      font-weight: 600;
+    }
+
+    &__flag-area {
+      padding-top: 50px;
+    }
+
+    &__flag-card {
+      background: $white;
+      padding: 20px;
+      border-radius: 10px;
+      &__title {
+        display: flex;
+
+        h3 {
+          padding-left: 50px;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    &__address {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 26px;
+      padding-top: 20px;
+    }
+
+    &__phone {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26px;
+    }
+  }
+}

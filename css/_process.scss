@@ -1,0 +1,75 @@
+.mir-info {
+  &__process {
+    padding: 1rem 0;
+
+    &__content {
+      width: 80%;
+      margin: auto;
+    }
+
+    &__text {
+      h3 {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 26px;
+        color: #323230;
+        text-align: center;
+        padding-bottom: 3rem;
+        align-self: center;
+      }
+    }
+
+    &__card-odd {
+      background: #6382a6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__card-even {
+      background: #63c540;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__card {
+      width: auto;
+      height: 414px;
+      border-radius: 14px;
+      padding: 5rem;
+      border-style: none;
+
+      &__image {
+        text-align: center;
+
+        img {
+          width: 75%;
+          align-self: center;
+        }
+      }
+
+      &__text {
+        color: $white;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 26px;
+        text-align: center;
+        padding: 3rem 0;
+      }
+    }
+  }
+}
+
+// Responsive Query
+
+@media (min-width: 360px) {
+  .mir-info {
+    &__process {
+      &__text {
+        h3 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}

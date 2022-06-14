@@ -1,0 +1,88 @@
+.mir-info {
+  &__value {
+    background: #f8f8f8;
+
+    &__content {
+      width: 80%;
+      margin: auto;
+      padding: 50px 0;
+    }
+
+    &__sub-content {
+      width: 80%;
+      margin: auto;
+      &__left {
+        height: 10px;
+        background: #00a65e;
+      }
+      &__middle {
+        height: 10px;
+        background: #63c540;
+      }
+      &__right {
+        height: 10px;
+        background: #88d66c;
+      }
+    }
+
+    &__text {
+      h3 {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 26px;
+        color: #323230;
+        text-align: center;
+        padding-bottom: 2rem;
+        align-self: center;
+      }
+    }
+
+    &__card {
+      width: auto;
+      min-height: 342px;
+      background: #ffffff;
+      border-radius: 10px;
+      border-style: none;
+      padding: 2rem;
+
+      &__image {
+        text-align: left;
+
+        img {
+          width: 15%;
+          align-self: center;
+        }
+      }
+
+      &__text {
+        h4 {
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 30px;
+          color: #323230;
+          text-align: left;
+          padding-top: 20px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+// Responsive Query
+@media (min-width: 360px) {
+  .mir-info {
+    &__value {
+      &__text {
+        h3 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}

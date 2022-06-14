@@ -1,0 +1,79 @@
+.mir-info {
+  &__mission-vision {
+    width: 100%;
+    overflow: hidden;
+    &__left {
+      background: #cce6ed;
+      min-height: 300px;
+    }
+    &__right {
+      background: #d9ebf0;
+      min-height: 300px;
+    }
+  }
+}
+
+// Responsive Query
+@media (min-width: 320px) {
+  .mir-info {
+    &__mission-vision {
+      &__left__text {
+        padding: 100px 100px 100px 100px;
+      }
+      &__right__text {
+        padding: 100px 100px 100px 100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 760px) {
+  .mir-info {
+    &__mission-vision {
+      &__left__text {
+        padding: 100px 100px 100px 100px;
+      }
+      &__right__text {
+        padding: 100px 100px 100px 100px;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .mir-info {
+    &__mission-vision {
+      &__left__text {
+        padding: 100px 0 100px 144px;
+      }
+      &__right__text {
+        padding: 100px 144px 100px 50px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1366px) {
+  .mir-info {
+    &__mission-vision {
+      &__left__text {
+        padding: 100px 0 100px 144px;
+      }
+      &__right__text {
+        padding: 100px 144px 100px 50px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .mir-info {
+    &__mission-vision {
+      &__left__text {
+        padding: 100px 0 100px 304px;
+      }
+      &__right__text {
+        padding: 100px 304px 100px 50px;
+      }
+    }
+  }
+}

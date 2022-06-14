@@ -1,0 +1,51 @@
+.mir-info {
+  &__footer {
+    background: $dark;
+    color: $white;
+    padding: 30px 0;
+
+    &__main-content {
+      padding: 50px 0 30px 0;
+
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: $white;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17.7px;
+        }
+      }
+
+      &__contact {
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+
+    &__copyright {
+      background: $light;
+      padding: 10px 0;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
+
+// Responsive Query
+
+@media (min-width: 760px) {
+  .mir-info {
+    &__footer {
+      &__main-content {
+        &__contact {
+          img {
+            width: 100%;
+            padding-left: 7px;
+          }
+        }
+      }
+    }
+  }
+}

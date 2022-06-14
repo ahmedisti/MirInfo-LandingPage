@@ -1,0 +1,27 @@
+.mir-info {
+  &__our-team {
+    padding: 70px 0;
+
+    img {
+      width: 100%;
+    }
+
+    &__text {
+      text-align: center;
+      padding-top: 60px;
+
+      h3 {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 26px;
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        padding-top: 30px;
+      }
+    }
+  }
+}
