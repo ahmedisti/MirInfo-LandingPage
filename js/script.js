@@ -1,6 +1,8 @@
 // For Slider
 var swiper = new Swiper(".mySwiper", {
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
